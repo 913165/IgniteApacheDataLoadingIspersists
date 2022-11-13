@@ -6,4 +6,5 @@ import org.springframework.stereotype.Service;
 public interface IgniteService {
 
     public void dropAndCreateTable();
+    public void deleteAndInsert();
 }
